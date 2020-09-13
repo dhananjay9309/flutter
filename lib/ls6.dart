@@ -1,4 +1,4 @@
-import 'package:codeflow/result.dart';
+import 'package:codeflow/result1.dart';
 import 'package:flutter/material.dart';
 import 'package:codeflow/main.dart';
 
@@ -33,7 +33,7 @@ class ls6 extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => result()),
+                                    builder: (context) => result1()),
                               );
                             },
                             child: Padding(
@@ -54,7 +54,7 @@ class ls6 extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => result()),
+                                      builder: (context) => result1()),
                                 );
                               },
                               child: Padding(
@@ -78,7 +78,7 @@ class ls6 extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => result()),
+                                    builder: (context) => result1()),
                               );
                             },
                             child: Padding(
@@ -101,7 +101,7 @@ class ls6 extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => result()),
+                                      builder: (context) => result1()),
                                 );
                               },
                               child: Padding(

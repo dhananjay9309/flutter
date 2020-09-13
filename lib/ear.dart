@@ -1,3 +1,4 @@
+import 'package:codeflow/Ear/e1.dart';
 import 'package:flutter/material.dart';
 
 class Ear_test extends StatefulWidget {
@@ -50,6 +51,27 @@ class _Ear_testState extends State<Ear_test> {
                         blurRadius: 15.0,
                         spreadRadius: 1.0),
                   ]),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(0, 80.0, 0, 0),
+              child: Align(
+                alignment: Alignment.bottomCenter,
+                child: Container(
+                  child: FlatButton(
+                    color: Colors.indigoAccent[700],
+                    child: Text(
+                      'NEXT',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Sound1()),
+                      );
+                    },
+                  ),
+                ),
+              ),
             ),
           ],
         ),
